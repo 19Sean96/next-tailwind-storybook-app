@@ -9,7 +9,8 @@
     "lint": "next lint",
     "prettier": "prettier --write .",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "prepare": "husky install"
   },
   "browserslist": "defaults, not ie <= 11",
   "dependencies": {
@@ -37,6 +38,7 @@
     "eslint": "8.26.0",
     "eslint-config-next": "13.0.2",
     "eslint-plugin-storybook": "^0.6.11",
+    "husky": "^8.0.3",
     "prettier": "^2.7.1",
     "prettier-plugin-tailwindcss": "^0.1.13",
     "storybook": "^7.0.0-rc.8"
