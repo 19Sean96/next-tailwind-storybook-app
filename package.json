@@ -6,7 +6,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "prettier": "prettier --write .",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
   },
   "browserslist": "defaults, not ie <= 11",
   "dependencies": {
@@ -24,9 +27,18 @@
     "use-debounce": "^8.0.4"
   },
   "devDependencies": {
+    "@storybook/addon-essentials": "^7.0.0-rc.8",
+    "@storybook/addon-interactions": "^7.0.0-rc.8",
+    "@storybook/addon-links": "^7.0.0-rc.8",
+    "@storybook/blocks": "^7.0.0-rc.8",
+    "@storybook/nextjs": "^7.0.0-rc.8",
+    "@storybook/react": "^7.0.0-rc.8",
+    "@storybook/testing-library": "^0.0.14-next.1",
     "eslint": "8.26.0",
     "eslint-config-next": "13.0.2",
+    "eslint-plugin-storybook": "^0.6.11",
     "prettier": "^2.7.1",
-    "prettier-plugin-tailwindcss": "^0.1.13"
+    "prettier-plugin-tailwindcss": "^0.1.13",
+    "storybook": "^7.0.0-rc.8"
   }
 }

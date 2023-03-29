@@ -182,7 +182,10 @@ function InviteScreen({ custom, animated = false }) {
           <div className="space-y-6">
             {[
               { label: 'Full name', value: 'Albert H. Wiggin' },
-              { label: 'Email address', value: 'awiggin@chase.com' },
+              {
+                label: 'Email address',
+                value: 'awiggin@chase.com',
+              },
             ].map((field) => (
               <div key={field.label}>
                 <div className="text-sm text-gray-500">{field.label}</div>
