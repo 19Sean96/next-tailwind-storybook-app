@@ -135,7 +135,6 @@ const maxZIndex = 2147483647
 const bodyVariantBackwards = {
   opacity: 0.4,
   scale: 0.8,
-  zIndex: 0,
   filter: 'blur(4px)',
   zIndex: 0,
   transition: { duration: 0.4 },
