@@ -1,18 +1,19 @@
 {
   "cSpell.words": [
-    "Viewports",
-    "tailwindui",
-    "tailwindcss",
+    "autodocs",
     "clsx",
+    "commitlint",
     "headlessui",
     "nextjs",
-    "commitlint"
+    "tailwindcss",
+    "tailwindui",
+    "Viewports"
   ],
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
   "editor.formatOnPaste": true,
   "editor.codeActionsOnSave": {
     "source.fixAll": true,
-    "source.organizeImports": true
+    "source.organizeImports": false
   }
 }
